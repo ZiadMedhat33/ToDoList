@@ -7,7 +7,7 @@ using ToDoList.ORM;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
-string connectionString = "Server=localhost\\SQLEXPRESS;Database=ToDoWork;Integrated Security=True;TrustServerCertificate=True";
+string connectionString = "your own sql server";
 builder.Services.AddSingleton<IOrm>(new EFOrm(connectionString));
 builder.Services.AddSingleton<UserService>();
 builder.Services.AddSingleton<FriendRequestService>();

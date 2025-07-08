@@ -17,3 +17,5 @@ I also started exploring extended features like allowing users to become friends
 Because of these insights, I've decided to end this project early and start fresh on a new one — one that applies everything I’ve learned here. Rather than patching this codebase, I’m choosing to move forward with a cleaner and more maintainable design.
 
 This project was a valuable learning opportunity, and I’m grateful for the experience. I’m excited to continue building with a stronger foundation and better architectural practices in mind.
+
+note: i configured this to use a sql server if you want to use it you gonna need to get your own connection sql server or database.
